@@ -1,5 +1,65 @@
 .header{
 background-color:blue;
+color:white;
+padding-bottom: 80px;
 
 }
 
+.logo{
+display:flex;
+justify-content: flex-start;
+padding-left: 100px;
+padding-top:20px;
+font-weight:bold;
+
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    display:flex;
+}
+
+
+.right-links{
+display:flex;
+justify-content:flex-end;
+list-style-type: none;
+gap: 16px;
+padding-top: 7px;
+padding-right: 100px;
+}
+
+.container{
+    display:flex;
+    align-items: flex-start;
+    justify-content:space-between;
+}
+
+.containerTwo{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.boldh1{
+    width:200px;
+    margin-bottom: 0px;
+}
+
+.tinytext{
+    margin-top: 0px;
+    width:250px;
+}
+
+.left{
+
+    padding-right: 240px;
+    padding-top: 30px;
+}
+
+.right{
+    padding-top: 20px;
+
+}
