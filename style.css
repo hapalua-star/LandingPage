@@ -1,3 +1,10 @@
+body{
+    margin: 0px;
+}
+
+
+
+
 .header{
 background-color:blue;
 color:white;
@@ -34,6 +41,7 @@ padding-right: 100px;
     display:flex;
     align-items: flex-start;
     justify-content:space-between;
+    
 }
 
 .containerTwo{
@@ -55,7 +63,7 @@ padding-right: 100px;
 
 .left{
 
-    padding-right: 240px;
+    padding-right: 500px;
     padding-top: 30px;
 }
 
@@ -63,3 +71,66 @@ padding-right: 100px;
     padding-top: 20px;
 
 }
+
+.signup{
+
+    color:rgb(14, 1, 1);
+    background-color: chartreuse;
+    border-radius: 15px;
+}
+
+.rectangle
+    {
+        width:100px;
+        height:100px;
+        border:1px solid rgb(30, 33, 214);
+        background: transparent;
+    }
+
+
+ .randomInfo{
+
+   display:flex;
+   flex-direction: column;
+   justify-content:space-between;
+   align-items: center;
+   
+ }
+ 
+ 
+    .containerThree
+  {
+   display: flex;
+   flex-direction: row;
+   gap: 35px;
+   flex-wrap: wrap;
+   
+    }
+    
+    .containerFour
+    {
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+    flex-wrap: wrap;
+    }
+
+    .rectangle{
+
+        border-radius: 15px;
+
+    }
+
+    .recText{
+        display:flex;
+        flex-wrap: wrap;
+        font-size: small;
+        width: 110px;
+    }
+
+    .randomStyle{
+
+        margin-top: 40px;
+        margin-bottom:40px;
+        
+    }
